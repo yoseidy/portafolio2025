@@ -1,0 +1,54 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Desarrolladora web Front-End",
+        "parrafo-info": "Soy Ingeniero Informático graduado de la Universidad Centroccidental Lisandro Alvarado, con experiencia como Front-End Developer. Actualmente, trabajo en 2B Ecommerce, liderando proyectos web y móviles con tecnologías como Vue y Flutter (otros). Mi enfoque está en crear soluciones modernas y eficientes que optimicen la experiencia del usuario, complementando mi experiencia con conocimientos en backend y bases de datos",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy Ingeniero Informático graduado de la Universidad Centroccidental Lisandro Alvarado, con experiencia sólida en el desarrollo front-end. Actualmente, trabajo en 2B Ecommerce como Front-End Developer, liderando proyectos tanto web como móviles con tecnologías modernas como Vue y Flutter. Mi enfoque está en desarrollar soluciones funcionales y estéticamente atractivas que mejoren la experiencia del usuario y cumplan con los objetivos del cliente.<br>Además de mis habilidades en desarrollo front-end, cuento con conocimientos en backend (Python y Node) y bases de datos (MongoDB, MySQL, PostgreSQL), lo que me da una visión integral del ciclo de desarrollo. Esta combinación de habilidades me permite aportar versatilidad al equipo, adaptarme a diferentes necesidades técnicas y contribuir al éxito de cada proyecto con soluciones innovadoras y de alta calidad<br>"
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "Estadística",
+        "tiempo-formacion1": "2019 - En curso",
+        "text-formacion1": "En 2B Ecommerce, mi rol como Front-End Developer abarca el desarrollo y mantenimiento de proyectos tanto web como móviles, implementando soluciones en React y Vue para la web y en Flutter para aplicaciones móviles. Me encargo de asegurar la funcionalidad, eficiencia y diseño de cada proyecto, adaptándolos a los requisitos del cliente y contribuyendo a una experiencia de usuario óptima",
+        "formacion2": "Desarrolladora Full-Stack",
+        "tiempo-formacion2": "2022 - En curso",
+        "text-formacion2": "En Grupo Ari, empresa con sede en Panamá, trabajé durante tres años como Front-End Developer. Durante mi tiempo allí, fui responsable del desarrollo y mantenimiento de interfaces web, aplicando tecnologías como Angular y Laravel para crear plataformas funcionales y visualmente atractivas. Mi enfoque se centró en optimizar la experiencia del usuario y garantizar el rendimiento de las aplicaciones.",
+        "formacion3": "Contabilización de Operaciones Comerciales y Financieras",
+        "text-formacion3": "Durante mi formación en Ingeniería Informática en la Universidad Centroccidental Lisandro Alvarado, adquirí una base sólida en desarrollo de software y resolución de problemas tecnológicos. Participé en proyectos académicos enfocados en la creación de aplicaciones web y móviles, donde pude aplicar y reforzar mis conocimientos en programación, bases de datos y diseño de interfaces."
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "Steii",
+        "info-proyecto1": "Estuve desarrollando una aplicación móvil en Flutter para iOS y Android, enfocada en gestionar servicios para huéspedes en Kiin. La app permite a los usuarios explorar y solicitar servicios, así como realizar reservas en restaurantes, mejorando su experiencia durante la estancia.",
+        "title-proyecto2": "Landing",
+        "info-proyecto2": "También participé en el desarrollo de la landing page de Kiin, implementada con React, así como en otros proyectos utilizando Vue, enfocados en interfaces modernas, funcionales y optimizadas para la experiencia del usuario.",
+        "title-proyecto3": "Ofrece tu talento",
+        "info-proyecto3": "En Grupo Ari, trabajé en el desarrollo del proyecto 'Ofrece tu Talento', utilizando Laravel para crear una plataforma robusta y funcional. Además, participé en otros proyectos implementados con Angular, centrados en construir soluciones dinámicas y escalables."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}

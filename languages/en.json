@@ -1,0 +1,54 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Front-End Web Developer",
+        "parrafo-info": "I am a Computer Engineer graduated from Lisandro Alvarado Centralwestern University, with experience as Front-End Developer. Currently, I work at 2B Ecommerce, leading web and mobile projects with technologies such as Vue and Flutter (others). My focus is on creating modern and efficient solutions that optimize the user experience, complementing my experience with knowledge in backend and databases.",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "I am a Computer Engineer graduated from Lisandro Centralwestern Alvarado University, with solid experience in front-end development. Currently, I work at 2B Ecommerce as Front-End Developer, leading both web and mobile projects with modern technologies such as Vue and Flutter. My focus is on developing functional and aesthetically appealing solutions that enhance the user experience and meet the client's goals.<br>In addition to my front-end development skills, I have knowledge in backend (Python and Node) and databases (MongoDB, MySQL, PostgreSQL), which gives me a comprehensive view of the development cycle. This combination of skills allows me to bring versatility to the team, adapt to different technical needs and contribute to the success of each project with innovative and high quality solutions."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Statistic",
+        "tiempo-formacion1": "2019 - In progress",
+        "text-formacion1": "At 2B Ecommerce, my role as Front-End Developer covers the development and maintenance of both web and mobile projects, implementing solutions in React and Vue for the web and in Flutter for mobile applications. I am in charge of ensuring the functionality, efficiency and design of each project, adapting them to the client's requirements and contributing to an optimal user experience.",
+        "formacion2": "Full-Stack Developer",
+        "tiempo-formacion2": "2022 - In progress",
+        "text-formacion2": "At Grupo Ari, a company based in Panama, I worked for three years as a Front-End Developer. During my time there, I was responsible for the development and maintenance of web interfaces, applying technologies such as Angular and Laravel to create functional and visually appealing platforms. My focus was on optimizing the user experience and ensuring the performance of the applications.",
+        "formacion3": "Accounting for Commercial and Financial Transactions",
+        "text-formacion3": "During my training in Computer Engineering at the Lisandro Alvarado Centralwestern University, I acquired a solid foundation in software development and technological problem solving. I participated in academic projects focused on the creation of web and mobile applications, where I was able to apply and reinforce my knowledge in programming, databases and interface design."
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "Steii",
+        "info-proyecto1": "I was developing a mobile app in Flutter for iOS and Android, focused on managing guest services in Kiin. The app allows users to explore and request services, as well as make restaurant reservations, enhancing their experience during their stay.",
+        "title-proyecto2": "Landing",
+        "info-proyecto2": "I also participated in the development of Kiin's landing page, implemented with React, as well as in other projects using Vue, focused on modern, functional and optimized interfaces for user experience.",
+        "title-proyecto3": "Offer your talent",
+        "info-proyecto3": "At Grupo Ari, I worked on the development of the project 'Ofrece tu Talento', using Laravel to create a robust and functional platform. In addition, I participated in other projects implemented with Angular, focused on building dynamic and scalable solutions."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}

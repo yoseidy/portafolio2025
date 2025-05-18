@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Yoseidy Perez Desarrolladora Web">
+    <meta name="robots" content="index,follow">
+
+    <title>Yoseidy Perez | Desarrolladora Web Front-End</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/logo-ma.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/image-home.png" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Yoseidy Perez</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrolladora web Front-End</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Soy Ingeniero Informático graduado de la Universidad Centroccidental Lisandro Alvarado, con experiencia como Front-End Developer. Actualmente, trabajo en 2B Ecommerce, liderando proyectos web y móviles con tecnologías como Vue y Flutter (otros). Mi enfoque está en crear soluciones modernas y eficientes que optimicen la experiencia del usuario, complementando mi experiencia con conocimientos en backend y bases de datos.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="/assets/CV_Yoseidy_Perez.pdf" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/yoseidy-perez-6928ab17a/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/yoseidy" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/yoseidy93/" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Yoseidy Perez</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
+                        Soy Ingeniero Informático graduado de la Universidad Lisandro Alvarado, con experiencia sólida en el desarrollo front-end. Actualmente, trabajo en 2B Ecommerce como Front-End Developer, liderando proyectos tanto web como móviles con tecnologías modernas como Vue y Flutter. Mi enfoque está en desarrollar soluciones funcionales y estéticamente atractivas que mejoren la experiencia del usuario y cumplan con los objetivos del cliente.<br>
+                        Además de mis habilidades en desarrollo front-end, cuento con conocimientos en backend (Python y Node) y bases de datos (MongoDB, MySQL, PostgreSQL), lo que me da una visión integral del ciclo de desarrollo. Esta combinación de habilidades me permite aportar versatilidad al equipo, adaptarme a diferentes necesidades técnicas y contribuir al éxito de cada proyecto con soluciones innovadoras y de alta calidad.
+                    </span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/image-sobreMi.png" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-flutter.png" alt="Flutter">
+                    <p>Flutter</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-vue.png" alt="Vue">
+                    <p>Vue</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-react.png" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-angular.png" alt="Angular">
+                    <p>Angular</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-laravel.png" alt="Laravel">
+                    <p>Laravel</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-material.png" alt="Marerial">
+                    <p>Marerial UI</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-bootstrap.png" alt="bootstrap">
+                    <p>Bootstrap UI</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-node.png" alt="Node">
+                    <p>Node JS</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-Notion.png" alt="Notion">
+                    <p>Notion</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-postman.png" alt="Postman">
+                    <p>Postman</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-github-hab.png" alt="GitHub">
+                    <p>Github</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación y Experiencia laboral</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/icon-2b.png" alt="Logo - Universidad Nacional de Colombia">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">2b</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2022 - En curso</p>
+                        <p data-section="formacion" data-value="text-formacion1">En 2B Ecommerce, mi rol como Front-End Developer abarca el desarrollo y mantenimiento de proyectos tanto web como móviles, implementando soluciones en React y Vue para la web y en Flutter para aplicaciones móviles. Me encargo de asegurar la funcionalidad, eficiencia y diseño de cada proyecto, adaptándolos a los requisitos del cliente y contribuyendo a una experiencia de usuario óptima.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/icon-ari.png" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Grupo Ari</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2019 - 2022</p>
+                        <p data-section="formacion"  data-value="text-formacion2">En Grupo Ari, empresa con sede en Panamá, trabajé durante tres años como Front-End Developer. Durante mi tiempo allí, fui responsable del desarrollo y mantenimiento de interfaces web, aplicando tecnologías como Angular y Laravel para crear plataformas funcionales y visualmente atractivas. Mi enfoque se centró en optimizar la experiencia del usuario y garantizar el rendimiento de las aplicaciones.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/icon-ucla.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Universida Centroccidental Lisandro Alvarado UCLA</p>
+                        <p>2021</p>
+                        <p data-section="formacion"  data-value="text-formacion2">Durante mi formación en Ingeniería Informática en la Universidad Lisandro Alvarado, adquirí una base sólida en desarrollo de software y resolución de problemas tecnológicos. Participé en proyectos académicos enfocados en la creación de aplicaciones web y móviles, donde pude aplicar y reforzar mis conocimientos en programación, bases de datos y diseño de interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon-steii.png" alt="Proyecto: Juego del ahorcado">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">STEII y APPs</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">Estuve desarrollando una aplicación móvil en Flutter para iOS y Android, enfocada en gestionar servicios para huéspedes en Kiin. La app permite a los usuarios explorar y solicitar servicios, así como realizar reservas en restaurantes, mejorando su experiencia durante la estancia, Actulmente desarrollando Apps para tiendas.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon-kiin.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Landings</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">También participé en el desarrollo de la landing page de Kiin y otras internas, implementadas con Vue, así como en otros proyectos utilizando Vue, enfocados en interfaces modernas, funcionales y optimizadas para la experiencia del usuario.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon-ofrece.png" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Ofrece tu Talento</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">En Grupo Ari, trabajé en el desarrollo del proyecto "Ofrece tu Talento", utilizando Laravel para crear una plataforma robusta y funcional. Además, participé en otros proyectos implementados con Angular, centrados en construir soluciones dinámicas y escalables. Tambien mantenimiento en pryectos con Django(Python)</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                    
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify action="https://formspree.io/xjnyreqx" method="POST">
+                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="links-contact">
+                <a> yoseidy93@gmail.com </a>
+                <a href="https://github.com/yoseidy" target="_blank">(+57) 312 6586157</a>
+                <a href="https://github.com/yoseidy" target="_blank">@yoseidy</a>
+                <a href="/assets/CV_Yoseidy_Perez.pdf">Hoja de vida</a>
+            </div>
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/yoseidy-perez-6928ab17a/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/yoseidy" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/yoseidy93/" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with</span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Yoseidy Perez</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>
